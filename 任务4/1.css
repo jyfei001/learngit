@@ -1,0 +1,102 @@
+html
+{
+	font-size: 625%;
+}
+body
+{
+	margin:0;
+}
+header,footer
+{
+position: fixed;
+padding: 0.07rem 0.1rem;
+height: 0.32rem;
+font-size: 0.14rem;
+background: #5fc0cd;
+line-height: 0.32rem;
+}
+header 
+{
+	left: 0;
+	right: 0;
+	top:0;
+	color: #fff
+}
+header a
+{
+	color: white;
+	font-size: 0.14rem;
+	cursor: pointer;
+}
+header h2
+{
+	color: #fff;
+	margin:0 0.4rem;
+	text-align: center;
+	font-size: 0.16rem;
+	padding: 0;
+}
+.header-left
+{
+	float: left;
+}
+.header-right
+{
+	float:right;
+}
+.input
+{
+	margin:0.1rem 0 0 0;
+	width: 100%;
+	background: white;
+}
+.input input
+{
+	line-height: 0.5rem;
+	outline: none;
+	width: 100%;
+	border: 0 none;
+	box-sizing: border-box;
+	padding-left: 0.8rem;
+	line-height: 0.5rem;
+}
+.denglu
+{
+	background:#5fc0cd;
+	width: 100%;
+	line-height: 0.45rem;
+	font-size:0.16rem;
+	letter-spacing:0.1rem;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	margin-top: 0.1rem;
+	color: white;
+}
+main
+{
+	position: absolute;
+	top: 0.46rem;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	overflow-y: auto;
+	overflow-x: hidden;
+	-webkit-overflow-scrolling:touch;
+	background: #eff0f4;
+}
+main .content
+{
+	height: auto;
+	font-size: 0.12rem;
+}
+.input input[type=text]
+{
+	background: url(2.png) no-repeat;
+	background-size: 0.9rem 0.5rem;
+}
+.input input[type=password]
+{
+	background: url(1.png) no-repeat;
+	background-size: 0.9rem 0.5rem;
+}
